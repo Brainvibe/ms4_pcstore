@@ -8,18 +8,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    {% endbock %}
+    {% endblock %}
 
     {% block extra_meta %}
-    {% endbock %}
+    {% endblock %}
 
     {% block corecss %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    {% endbock %}
+    {% endblock %}
 
     {% block extra_css %}
-    {% endbock %}
+    {% endblock %}
 
     {% block corejs %}
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -31,11 +31,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-    {% endbock %}
-    
+    {% endblock %}
+
     {% block extra_js %}
-    {% endbock %}
-    
+    {% endblock %}
+
     <title>PC Master {% block extra_title %}{% endblock %}</title>
 </head>
 
@@ -45,6 +45,17 @@
     {% if messages %}
     <div class="message-container"></div>
     {% endif %}
+
+    {% block page_header %}
+    {% endblock %}
+
+    
+    {% block content %}
+    {% endblock %}
+    
+    {% block postloadjs %}
+    {% endblock %}
+
 </body>
 
 </html>
