@@ -1,0 +1,130 @@
+[
+    {
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "intel-mb",
+            "friendly_name": "Intel Motherboards"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "amd-mb",
+            "friendly_name": "AMD Motherboards"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+            "name": "nvidia-gpu",
+            "friendly_name": "Nvidia Graphic Cards"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "amd-gpu",
+            "friendly_name": "AMD Graphic Cards"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "intel-cpu",
+            "friendly_name": "Intel Processors"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.category",
+        "fields": {
+            "name": "amd-cpu",
+            "friendly_name": "AMD Processors"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.category",
+        "fields": {
+            "name": "thermal-cpu",
+            "friendly_name": "Thermal Compounds"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.category",
+        "fields": {
+            "name": "memory-ddr4",
+            "friendly_name": "DDR4 RAM"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.category",
+        "fields": {
+            "name": "memory-ddr3",
+            "friendly_name": "DDR3 RAM"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.category",
+        "fields": {
+            "name": "memory-ddr2",
+            "friendly_name": "DDR2 RAM"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.category",
+        "fields": {
+            "name": "storage-ssd",
+            "friendly_name": "SSD Solid State"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.category",
+        "fields": {
+            "name": "storage-hdd",
+            "friendly_name": "HDD Hard Disk"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.category",
+        "fields": {
+            "name": "storage-flash",
+            "friendly_name": "Flash Memory"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.category",
+        "fields": {
+            "name": "psu-500w",
+            "friendly_name": "Power Supply up to 500W"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.category",
+        "fields": {
+            "name": "psu-800w",
+            "friendly_name": "Power Supply up to 500W"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.category",
+        "fields": {
+            "name": "psu-more800w",
+            "friendly_name": "Power Supply Above 800W"
+        }
+    }
+]
