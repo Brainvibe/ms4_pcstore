@@ -3,7 +3,6 @@
         "pk": 1,
         "model": "products.product",
         "fields": {
-            "sku": "pp5001340155",
             "name": "ASUS ROG Strix Z490-F Gaming DDR4 ATX Motherboard ",
             "description": "Intel® Z490 LGA 1200 ATX gaming motherboard featuring 14 Power Stages, AI Overclocking, AI Cooling, AI Networking, Intel® 2.5 Gb Ethernet, dual M.2 with heatsinks, USB 3.2 Gen 2, SATA and AURA Sync RGB lighting",
             "price": 259.99,
@@ -17,7 +16,6 @@
         "pk": 2,
         "model": "products.product",
         "fields": {
-            "sku": "pp5001600425",
             "name": "ASUS Prime B360-Plus Intel B360 (Socket 1151) DDR4 ATX Motherboard",
             "description": "The ASUS Prime B360-PLUS uses the cutting edge B360 chipset so it is compatible with Intel's 8000-series Core processors (Coffee Lake).",
             "price": 86.99,
@@ -31,7 +29,6 @@
         "pk": 3,
         "model": "products.product",
         "fields": {
-            "sku": "pp5001730010",
             "name": "Gigabyte Z490 Aorus Master (Socket LGA 1200) DDR4 ATX Motherboard ",
             "description": "Intel® Z490 AORUS Motherboard with 14 Phase Digital VRM, Fins-Array II, Direct-Touch Heatpipe II, Intel® WiFi 6 802.11ax, Intel® 2.5GbE LAN, ESS SABRE HiFi 9118 DAC, RGB FUSION 2.0, USB TurboCharger",
             "price": 205.99,
@@ -45,7 +42,6 @@
         "pk": 4,
         "model": "products.product",
         "fields": {
-            "sku": "pp5001890157",
             "name": "ASRock Z490 Aqua (Socket LGA 1200) DDR4 EATX Motherboard",
             "description": "Support for 10th Generation Intel® Core™ i9 processors/Intel® Core™ i7 processors/Intel® Core™ i5 processors/Intel® Core™ i3 processors/Intel® Pentium® processors/Intel® Celeron® processors in the LGA1200 package",
             "price": 969.99,
@@ -59,7 +55,6 @@
         "pk": 5,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002111605",
             "name": "ASUS ROG Strix Z390-E Intel Z390",
             "description": "Support for 9th / 8th Intel® Core™ i7 processors/Intel® Core™ i5 processors/Intel® Core™ i3 processors/Intel® Pentium® processors/Intel® Celeron® processors in the LGA1151 package",
             "price": 232.99,
@@ -73,7 +68,6 @@
         "pk": 6,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002260206",
             "name": "Gigabyte X570 AORUS ELITE",
             "description": "The Gigabyte X570 AORUS ELITE is equipped to support AMD’s ‘Zen 2’, the 3rd generation of the Ryzen Processor family.",
             "price": 230.50,
@@ -87,7 +81,6 @@
         "pk": 7,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "MSI MAG B550 TOMAHAWK",
             "description": "AMD AM4 Socket 3rd Gen AMD Ryzen™ Processors",
             "price": 159.00,
@@ -101,7 +94,6 @@
         "pk": 8,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002601115",
             "name": "Asus TUF B450M-PLUS GAMING",
             "description": "B450 motherboards support all features of 2nd gen Ryzen processors, such as the AMD's new XFR2 overclocking",
             "price": 136.99,
@@ -115,7 +107,6 @@
         "pk": 9,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "MSI X570-A PRO",
             "description": "AMD AM4 Socket 3rd Gen AMD Ryzen™ Processors",
             "price": 159.00,
@@ -129,7 +120,6 @@
         "pk": 10,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "MSI GeForce RTX 2080 Ti Gaming X Trio",
             "description": "The MSI GeForce RTX 2080 Ti GAMING X TRIO represents the cutting edge of graphics card technology.",
             "price": 1159.00,
@@ -143,7 +133,6 @@
         "pk": 11,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Gigabyte GeForce GTX Gaming 1660 OC",
             "description": "The Gigabyte GeForce GTX 1660 GAMING OC series delivers a superior PC gaming experience compared to its last gen counterpart.",
             "price": 294.00,
@@ -157,7 +146,6 @@
         "pk": 12,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Palit GeForce RTX 2070 SUPER GP",
             "description": "The GeForce® RTX 2070 SUPER™ is powered by the award-winning NVIDIA Turing™ architecture and has a superfast GPU with more cores and faster clocks to unleash your creative productivity and gaming dominance.",
             "price": 494.00,
@@ -171,7 +159,6 @@
         "pk": 13,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "ASUS GeForce GTX 1650 SUPER TUF",
             "description": "The TUF Gaming GeForce® GTX 1650 SUPER™ stacks an arsenal of weapons that bring reliable 3D horsepower to the TUF Gaming ecosystem.",
             "price": 158.00,
@@ -185,7 +172,6 @@
         "pk": 14,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "ASUS Radeon RX 580 Arez Dual",
             "description": "AREZ Dual series RX 580 comes equipped with Patented Wing-Blade Fans for max air flow with 105% more air pressure.",
             "price": 158.00,
@@ -199,7 +185,6 @@
         "pk": 15,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Gigabyte Radeon RX 5700 XT Gaming OC",
             "description": "Gigabyte Radeon RX 5700 XT GAMING OC features PCI-Express 4.0 support, with a throughput of 16 GT/s and enables two times the bandwidth compared to PCI Express 3.0",
             "price": 358.00,
@@ -213,7 +198,6 @@
         "pk": 16,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "ASUS Radeon RX 5500 XT Dual EVO",
             "description": " ASUS Dual Radeon™ RX 5500 XT EVO melds performance and simplicity like no other",
             "price": 199.00,
@@ -227,7 +211,6 @@
         "pk": 17,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "PowerColor Radeon RX 5700 XT",
             "description": " ASUS Dual Radeon™ RX 5500 XT EVO melds performance and simplicity like no other",
             "price": 399.00,
@@ -241,7 +224,6 @@
         "pk": 18,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Intel Core i7-10700K 3.8GHz ",
             "description": "The Intel Core i7-10700K is the new high-end model of the Core 10,000- series and offers eight cores with Hyper-Threading (SMT), capable of processing up to 16 threads simultaneously.",
             "price": 374.00,
@@ -255,7 +237,6 @@
         "pk": 19,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Intel Core i9-9900K 3.6GHz",
             "description": "This new updated range brings some highly sought after improvements, including the fact that CPUs with unlocked multipliers now offer soldered heatspreaders (IHS).",
             "price": 389.00,
@@ -269,7 +250,6 @@
         "pk": 20,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Intel Core i5-10400F 2.90GHz",
             "description": "Newest and cheapest entry level processor for your gaming needs",
             "price": 158.00,
@@ -283,7 +263,6 @@
         "pk": 21,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Intel Core i9-10900X",
             "description": "The latest Intel Core i9 10900X X Series processor is powered by 10 Cores and 20 Threads to address the simultaneous, compute-intensive demands of creators",
             "price": 599.99,
@@ -297,7 +276,6 @@
         "pk": 22,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "AMD Ryzen 5 3600 Six Core 4.2GHz",
             "description": "3rd Gen AMD Ryzen™ processors are built using the world’s most advanced 7nm manufacturing technology.",
             "price": 209.99,
@@ -311,7 +289,6 @@
         "pk": 23,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "AMD Ryzen 7 3700X Eight Core 4.4GHz",
             "description": "3rd Gen AMD Ryzen processors feature support for the world’s first PCIe® 4.0 connectivity",
             "price": 299.99,
@@ -325,7 +302,6 @@
         "pk": 24,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "AMD Ryzen 9 3900X Twelve Core 4.6GHz",
             "description": "Higher speeds, more memory, and wider bandwidth than the previous generation.",
             "price": 449.99,
@@ -339,7 +315,6 @@
         "pk": 25,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "AMD Ryzen 3 3300X Quad Core 4.3GHz",
             "description": "The AMD Ryzen 3300X processor includes 4 CPU Cores with 8 threads and a base clock of 3.8GHz that can be boosted to 4.3GHz",
             "price": 128.99,
@@ -353,7 +328,6 @@
         "pk": 26,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Kryonaut Extreme Performance Thermal Paste - 33g / 9ml",
             "description": "Extremely powerful thermal paste, suitable for cooling with nitrogen or compressor",
             "price": 76.99,
@@ -367,7 +341,6 @@
         "pk": 27,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Cooler Master MasterGel Maker 11 W/m-K Thermal Paste ",
             "description": "This Cooler Master MasterGel thermal paste is suitable for both CPU's and GPU's and with the added bonus of a cleaner and spreader replacing the thermal paste has never been easier.",
             "price": 9.95,
@@ -381,7 +354,6 @@
         "pk": 28,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Prolimatech PK-3 Nano Aluminium Thermal Paste - 30g",
             "description": "PK-3 thermal compound is made up of specially designed nano particles",
             "price": 26.99,
@@ -395,7 +367,6 @@
         "pk": 29,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Kryonaut High Performance Thermal Paste",
             "description": "Thermal Grizzly Kryonaut Thermal Paste was specially developed for extremely demanding applications and the most demanding of Overlocking community ",
             "price": 21.95,
@@ -409,7 +380,6 @@
         "pk": 30,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Vengeance RGB PRO Black 16GB (2x8GB) 3600 MHz",
             "description": "Illuminates your system with captivating dynamic multi-zone RGB lighting, while providing the optimum in DDR4 performance and stability",
             "price": 89.99,
@@ -423,7 +393,6 @@
         "pk": 31,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Corsair Vengeance LPX Black 16GB (2x8GB) 3600 MHz AMD Ryzen Tuned DDR4",
             "description": "This dual packet of top-end memory brings 16GB of premium Vengeance LPX memory to your PC",
             "price": 68.99,
@@ -437,7 +406,6 @@
         "pk": 32,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz",
             "description": "With performance and compatibility at its core - LPX is specifically designed for Intel's latest Skylake platform and compatible with X99 platforms. ",
             "price": 59.99,
@@ -451,7 +419,6 @@
         "pk": 33,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "TeamGroup Dark T-Force 16GB (2x8GB) DDR4 3200MHz",
             "description": "Officially released DDR4 high speed memory modules which are specifically designed and tested for Intel and AMD chipsets and XMP profile.",
             "price": 59.99,
@@ -465,7 +432,6 @@
         "pk": 34,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Kingston HyperX Fury Black 16GB (2x8GB) DDR3 1600MHz ",
             "description": "Kingston HyperX Fury strikes down upon its competitors with furious anger and offers the incredible reliability and compatibility always guaranteed by the Kingston brand",
             "price": 128.99,
@@ -479,7 +445,6 @@
         "pk": 35,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "TeamGroup Elite Black 8GB (2x4GB) DDR3 1600MHz",
             "description": "ELITE DDR3 features outstanding product quality that users have come to expect from Team Group and the product has also passed the strictest of tests for quality assurance",
             "price": 44.99,
@@ -493,7 +458,6 @@
         "pk": 36,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Geil EVO Potenza 8GB (2x4GB) DDR3 2400MHz ",
             "description": "EVO POTENZA is equipped with the latest Potenza heat-spreader, designed with GeIL’s state-of-art MTCD – Maximum Thermal Conduction & Dissipation technology for superior cooling efficiency",
             "price": 72.98,
@@ -507,7 +471,6 @@
         "pk": 37,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Avexir Core Blue Series 16GB (2x8GB) DDR3 1600MHz",
             "description": "Avexir Core Series is designed specifically for the extreme power users who focus on challenging the excellence in high performance gaming experience.",
             "price": 108.99,
@@ -521,7 +484,6 @@
         "pk": 38,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Corsair XMS2 4GB (2x2GB) DDR2",
             "description": "The XMS brand family is Corsair's mainstream line of performance memory. These modules allow users to experience outstanding memory performance and stability.",
             "price": 52.49,
@@ -535,7 +497,6 @@
         "pk": 39,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Samsung 1TB 860 QVO SSD 2.5 SATA ",
             "description": "The 860 QVO is the advanced consumer SSD powered by 3D V-NAND technology that maximizes everyday computing experiences with optimized performance and enhanced reliability",
             "price": 99.95,
@@ -549,7 +510,6 @@
         "pk": 40,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Western Digital Blue 3D NAND 1TB",
             "description": "sing 3D Nand Technology they have managed to create speeds of upto 530 MB/s write and 560MB/s Read speeds",
             "price": 94.49,
@@ -563,7 +523,6 @@
         "pk": 41,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "TeamGroup 1TB Vulcan SSD",
             "description": "Read speed is up to 560 MB/s will satisfy gaming enthusiastic booting, data addition, and gaming reaction requirement; bring more realistic gaming experience",
             "price": 99.49,
@@ -577,7 +536,6 @@
         "pk": 42,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Kingston A400 240GB SATA 6Gb/s",
             "description": "Improves the responsiveness of your existing system with incredible boot loading and transfer times compared to mechanical hard drives",
             "price": 35.99,
@@ -591,7 +549,6 @@
         "pk": 43,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Seagate 1TB BarraCuda 7200rpm",
             "description": "The data transfer rate of this 1 TB version of the BarraCuda is on average 156 MB / s, whereby the outer diameter can even reach values of up to 210 MB / s.",
             "price": 36.95,
@@ -605,7 +562,6 @@
         "pk": 44,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Toshiba 4TB X300",
             "description": "Created with performance in mind with 7200 RPM speeds and 128mb cache",
             "price": 94.99,
@@ -619,7 +575,6 @@
         "pk": 45,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Western Digital 4TB Black 7200RPM 256MB Cache",
             "description": "Performance hard drives ranging from 500GB to 6TB give your gaming PC the performance power it deserves",
             "price": 174.99,
@@ -633,7 +588,6 @@
         "pk": 46,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Toshiba 3TB P300 7200RPM",
             "description": "3TB Hard Drive HDWD130UZSVA P300 High Performance 7200RPM 64MB Cache Hard Drive",
             "price": 58.99,
@@ -647,7 +601,6 @@
         "pk": 47,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "SanDisk 32GB microSDHC UHS-I Class 10",
             "description": "Micro SD Card Class 10 Upto 98mb/s transfer speed A1 Rated SD Adapter Included",
             "price": 8.99,
@@ -661,7 +614,6 @@
         "pk": 48,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Kingston 128GB DataTraveler 100 G3 USB 3.0 ",
             "description": "Kingston’s DataTraveler® 100 USB Flash drive is compliant with USB 3.0 specifications to take advantage of USB 3.0 ports in newer notebooks and desktops",
             "price": 19.99,
@@ -675,7 +627,6 @@
         "pk": 49,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "SanDisk 64GB USB2.0 Cruzer Blade ",
             "description": "USB 2.0 Drive Compact and Portable Easy file backup",
             "price": 13.99,
@@ -689,7 +640,6 @@
         "pk": 50,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "TeamGroup 128GB T-Force Spark RGB USB 3.2",
             "description": "128GB Capacity RGB soft ambient lighting effect Smart capacity status indicator USB 3.2 support Easy-Slide! Capless design",
             "price": 29.99,
@@ -703,7 +653,6 @@
         "pk": 51,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Corsair CV Series CV450 450W",
             "description": "A 120mm thermally controlled cooling fan keeps fan noise to a minimum, while a compact casing makes for an easy fit into nearly any modern PC case",
             "price": 39.95,
@@ -717,7 +666,6 @@
         "pk": 52,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "be quiet! Pure Power 11 500W",
             "description": "Pure Power 11 500W CM offers peerless dependability and best-in-class features",
             "price": 69.95,
@@ -731,7 +679,6 @@
         "pk": 53,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "SilverStone SFX-L V2.0 500W '80 Plus Gold",
             "description": "SilverStone has released a “lengthened” variation of the SFX form factor called SFX-L. With 30mm of added depth",
             "price": 80.99,
@@ -745,7 +692,6 @@
         "pk": 54,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Kolink Enclave 500W 80 Plus",
             "description": "Premium 80 PLUS Gold power supply rated for 500 Watts output",
             "price": 59.99,
@@ -759,7 +705,6 @@
         "pk": 55,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Corsair SF Series 750W",
             "description": "The CORSAIR SF750 80 PLUS Platinum SFX Power Supply is an extraordinarily power-dense PSU",
             "price": 134.99,
@@ -773,7 +718,6 @@
         "pk": 56,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Seasonic S12III 650W 80",
             "description": "High 80 PLUS Bronze efficiency, powerful 650 Watt PSU",
             "price": 64.99,
@@ -787,7 +731,6 @@
         "pk": 57,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Asus ROG STRIX 650W",
             "description": "ROG Heatsinks, Dual Ball Fan Bearings, 80 Plus Gold Certification",
             "price": 129.95,
@@ -801,7 +744,6 @@
         "pk": 58,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Corsair RM Series RM650 650W",
             "description": "Low Noise Operation, 80 PLUS Gold Certification, Zero RPM Fan Mode",
             "price": 94.99,
@@ -815,7 +757,6 @@
         "pk": 59,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "ASUS ROG THOR 850W",
             "description": "ROG Thor series extends premium ROG brand to PSU product segment and features ROG heatsinks",
             "price": 224.99,
@@ -829,7 +770,6 @@
         "pk": 60,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Corsair HXi Series HX1000i 1000W",
             "description": "HXi Series power supplies give you extremely tight voltage control ",
             "price": 252.49,
@@ -843,7 +783,6 @@
         "pk": 61,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "Corsair RMx White Series RMx850 ",
             "description": "CORSAIR RM850x series power supplies are built with the highest quality components to deliver 80 PLUS Gold efficient power to your PC ",
             "price": 134.99,
@@ -857,7 +796,6 @@
         "pk": 62,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002440521",
             "name": "SuperFlower Leadex III ARGB 850W",
             "description": "Fully modular 80 PLUS Gold rated 850 Watt power supply",
             "price": 134.49,
