@@ -24,13 +24,19 @@ body {
     font-family: 'Orbitron', sans-serif;
     color: white;
 }
+.logo-font-prod {
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+}
 
 .main-logo-link {
     width: fit-content;
 }
+
 .bg-dark {
     background-color: #2a2a2a !important;
-    }
+}
+
 .buy-now-button {
     background: black;
     color: white;
@@ -42,7 +48,17 @@ body {
     color: white;
 }
 
-#topnav{
+.bg-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
+}
+
+#topnav {
     background-color: black;
 }
 
@@ -55,12 +71,14 @@ body {
     color: white !important;
 }
 
-.nav-font{
+.nav-font {
     font-family: 'Roboto', sans-serif;
 }
-.text-black{
-    color:black;
+
+.text-black {
+    color: black;
 }
+
 .border-black {
     border: 1px solid black !important;
 }
