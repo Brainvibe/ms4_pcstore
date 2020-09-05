@@ -679,7 +679,7 @@
             "name": "SanDisk 64GB USB2.0 Cruzer Blade ",
             "description": "USB 2.0 Drive Compact and Portable Easy file backup",
             "price": 13.99,
-            "category": 12,
+            "category": 13,
             "rating": 5,
             "image_url": "https://www.overclockers.co.uk/media/image/thumbnail/FL11QSD_180122_750x750.jpg",
             "image": "storage_flash_3.jpg"
@@ -693,7 +693,7 @@
             "name": "TeamGroup 128GB T-Force Spark RGB USB 3.2",
             "description": "128GB Capacity RGB soft ambient lighting effect Smart capacity status indicator USB 3.2 support Easy-Slide! Capless design",
             "price": 29.99,
-            "category": 12,
+            "category": 13,
             "rating": 5,
             "image_url": "https://www.overclockers.co.uk/media/image/thumbnail/FL024TG_250088_750x750.jpg",
             "image": "storage_flash_4.jpg"
@@ -707,7 +707,7 @@
             "name": "Corsair CV Series CV450 450W",
             "description": "A 120mm thermally controlled cooling fan keeps fan noise to a minimum, while a compact casing makes for an easy fit into nearly any modern PC case",
             "price": 39.95,
-            "category": 13,
+            "category": 14,
             "rating": 5,
             "image_url": "https://www.overclockers.co.uk/media/image/thumbnail/CA25BCS_236984_750x750.png",
             "image": "psu_500w_1.png"
@@ -721,7 +721,7 @@
             "name": "be quiet! Pure Power 11 500W",
             "description": "Pure Power 11 500W CM offers peerless dependability and best-in-class features",
             "price": 69.95,
-            "category": 13,
+            "category": 14,
             "rating": 5,
             "image_url": "https://www.overclockers.co.uk/media/image/thumbnail/CA131BQ_194509_750x750.jpg",
             "image": "psu_500w_2.jpg"
@@ -735,7 +735,7 @@
             "name": "SilverStone SFX-L V2.0 500W '80 Plus Gold",
             "description": "SilverStone has released a “lengthened” variation of the SFX form factor called SFX-L. With 30mm of added depth",
             "price": 80.99,
-            "category": 13,
+            "category": 14,
             "rating": 5,
             "image_url": "https://www.overclockers.co.uk/media/image/thumbnail/CA405SV_106586_750x750.jpg",
             "image": "psu_500w_3.png"
@@ -749,7 +749,7 @@
             "name": "Kolink Enclave 500W 80 Plus",
             "description": "Premium 80 PLUS Gold power supply rated for 500 Watts output",
             "price": 59.99,
-            "category": 13,
+            "category": 14,
             "rating": 5,
             "image_url": "https://www.overclockers.co.uk/media/image/thumbnail/CA049KK_224196_750x750.jpg",
             "image": "psu_500w_4.png"
@@ -763,7 +763,7 @@
             "name": "Corsair SF Series 750W",
             "description": "The CORSAIR SF750 80 PLUS Platinum SFX Power Supply is an extraordinarily power-dense PSU",
             "price": 134.99,
-            "category": 14,
+            "category": 15,
             "rating": 4.5,
             "image_url": "https://www.overclockers.co.uk/media/image/thumbnail/CA24JCS_199907_750x750.jpg",
             "image": "psu_800w_1.jpg"
@@ -777,7 +777,7 @@
             "name": "Seasonic S12III 650W 80",
             "description": "High 80 PLUS Bronze efficiency, powerful 650 Watt PSU",
             "price": 64.99,
-            "category": 14,
+            "category": 15,
             "rating": 5,
             "image_url": "https://www.overclockers.co.uk/media/image/thumbnail/CA07GSS_238783_750x750.jpg",
             "image": "psu_800w_2.jpg"
@@ -791,7 +791,7 @@
             "name": "Asus ROG STRIX 650W",
             "description": "ROG Heatsinks, Dual Ball Fan Bearings, 80 Plus Gold Certification",
             "price": 129.95,
-            "category": 14,
+            "category": 15,
             "rating": 5,
             "image_url": "https://www.overclockers.co.uk/media/image/thumbnail/CA05DAS_225838_750x750.png",
             "image": "psu_800w_3.png"
@@ -805,7 +805,7 @@
             "name": "Corsair RM Series RM650 650W",
             "description": "Low Noise Operation, 80 PLUS Gold Certification, Zero RPM Fan Mode",
             "price": 94.99,
-            "category": 14,
+            "category": 15,
             "rating": 5,
             "image_url": "https://www.overclockers.co.uk/media/image/thumbnail/CA24RCS_215857_750x750.png",
             "image": "psu_800w_4.png"
@@ -816,13 +816,55 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002440521",
-            "name": "",
-            "description": "",
-            "price": 52.49,
-            "category": 14,
+            "name": "ASUS ROG THOR 850W",
+            "description": "ROG Thor series extends premium ROG brand to PSU product segment and features ROG heatsinks",
+            "price": 224.99,
+            "category": 16,
             "rating": 5,
-            "image_url": "",
-            "image": ""
+            "image_url": "https://www.overclockers.co.uk/media/image/thumbnail/CA058AS_192235_750x750.jpg",
+            "image": "psu_800wplus_1.jpg"
+        }
+    },
+    {
+        "pk": 60,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002440521",
+            "name": "Corsair HXi Series HX1000i 1000W",
+            "description": "HXi Series power supplies give you extremely tight voltage control ",
+            "price": 252.49,
+            "category": 16,
+            "rating": 5,
+            "image_url": "https://www.overclockers.co.uk/media/image/thumbnail/CA183CS_95714_750x750.jpg",
+            "image": "psu_800wplus_2.jpg"
+        }
+    },
+    {
+        "pk": 61,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002440521",
+            "name": "Corsair RMx White Series RMx850 ",
+            "description": "CORSAIR RM850x series power supplies are built with the highest quality components to deliver 80 PLUS Gold efficient power to your PC ",
+            "price": 134.99,
+            "category": 16,
+            "rating": 5,
+            "image_url": "https://www.overclockers.co.uk/media/image/thumbnail/CA253CS_223991_750x750.png",
+            "image": "psu_800wplus_3.png"
+        }
+    },
+    {
+        "pk": 62,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002440521",
+            "name": "SuperFlower Leadex III ARGB 850W",
+            "description": "Fully modular 80 PLUS Gold rated 850 Watt power supply",
+            "price": 134.49,
+            "category": 16,
+            "rating": 5,
+            "image_url": "https://www.overclockers.co.uk/media/image/thumbnail/CA066SF_234322_750x750.jpg",
+            "image": "psu_800wplus_4.jpg"
         }
     }
 ]
