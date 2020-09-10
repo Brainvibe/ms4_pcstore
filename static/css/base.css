@@ -24,6 +24,7 @@ body {
     font-family: 'Orbitron', sans-serif;
     color: white;
 }
+
 .logo-font-prod {
     font-family: 'Orbitron', sans-serif;
     color: black;
@@ -46,6 +47,17 @@ body {
 .btn-black {
     background: black;
     color: white;
+}
+
+.btn-outline-black {
+    background: white;
+    color: black !important;
+    border: 1px solid black;
+}
+
+.btn-outline-black:hover, .btn-outline-black:active, .btn-outline-black:focus {
+    background: black;
+    color: white!important;
 }
 
 .bg-overlay {
@@ -83,10 +95,11 @@ body {
     border: 1px solid black !important;
 }
 
-a.category-badge > span.badge:hover {
+a.category-badge>span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -113,11 +126,11 @@ a.category-badge > span.badge:hover {
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
+
 @media (max-width: 991px) {
     .header-container {
         padding-top: 160px;
     }
-
     body {
         height: calc(100vh - 116px);
     }
