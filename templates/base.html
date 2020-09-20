@@ -1,5 +1,7 @@
 {% load static %}
 
+
+
 <!doctype html>
 <html lang="en">
 
@@ -17,8 +19,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e0e8023288.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
@@ -50,11 +54,11 @@
         <div id="topnav" class="row pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font my-0">PC Experience</h2>
+                    <img class="title-logo" src="{% static 'img/logo_small.png' %}" alt="PC Experience logo">
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
-                <form method="GET" action="">
+                <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
                         <input class="form-control border border-black rounded-0" type="text" name="q"
                             placeholder="Search our site">
@@ -90,6 +94,7 @@
                             <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
                             {% endif %}
                         </div>
+
                     </li>
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-white{% endif %} nav-link"
@@ -109,7 +114,12 @@
                 </ul>
             </div>
         </div>
-        <div class="row bg-gray">
+
+
+
+    </header>
+    <div class="container-fluid">
+        <div class="row">
             <nav class="navbar navbar-expand-lg navbar-light bg-dark w-100">
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
@@ -120,8 +130,7 @@
                 {% include "includes/main-nav.html" %}
             </nav>
         </div>
-    </header>
-
+    </div>
     {% if messages %}
     <div class="message-container">
         {% for message in messages %}
@@ -143,6 +152,8 @@
     </div>
     {% endif %}
 
+
+
     {% block page_header %}
     {% endblock %}
 
@@ -156,6 +167,33 @@
     </script>
     {% endblock %}
 
+    <div class="col py-2"></div>
+    <!-- FOOTER -->
+    <div class="container-fluid text-center footer-container">
+        <footer class="footer-section">
+            <div class="row">
+                <div class="col-12 container-fluid social-icons">
+                    <a target="_blank" aria-label="Facebook" rel="noreferrer" href="https://www.facebook.com">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a target="_blank" aria-label="Twitter" rel="noreferrer" href="https://www.twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a target="_blank" aria-label="Instagram" rel="noreferrer" href="https://www.instagram.com">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a target="_blank" aria-label="Youtube" rel="noreferrer" href="https://www.youtube.com">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="{% url 'home' %}" class="nav-link main-logo-link">
+                        <img class="title-logo" src="{% static 'img/logo.png' %}" alt="PC Experience logo">
+                    </a>
+                </div>
+            </div>
+          
+
+        </footer>
+    </div>
 </body>
 
 </html>
