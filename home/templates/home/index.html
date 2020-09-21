@@ -9,14 +9,13 @@
 {% block content %}
 <div class="cover-container text-center d-flex w-100 h-100 p-3 mx-auto flex-column">
   <main role="main" class="inner cover">
-    <img class="logo-main" src="{% static 'img/logo.png' %}" alt="PC Experience logo">
+    <img class="logo-main" src="{{ MEDIA_URL }}logo.png" alt="PC Experience logo">
     <p class="logo-font">Welcome, here you can find all the latest PC Hardware for your everyday needs.</p>
     <p>      
       <a href="{% url 'products' %}" class="btn btn-lg btn-info">Shop Now</a>
     </p>
   </main>
 </div>
-
 
 
 {% endblock %}

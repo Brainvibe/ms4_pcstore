@@ -6,11 +6,8 @@
 {% endblock %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
+<div class="col my-5 py-5"></div>
+
 {% endblock %}
 
 {% block content %}
@@ -50,7 +47,7 @@
                                     <td>
                                         <a href="{% url 'order_history' order.order_number %}"
                                         title="{{ order.order_number }}">
-                                            {{ order.order_number|truncatechars:6 }}
+                                            {{ order.order_number|truncatechars:8 }}
                                         </a>
                                     </td>
                                     <td>{{ order.date }}</td>
@@ -63,7 +60,7 @@
                                             {% endfor %}
                                         </ul>
                                     </td>
-                                    <td>${{ order.grand_total }}</td>
+                                    <td>{{ order.grand_total }} €</td>
                                 </tr>
                             {% endfor %}
                         </tbody>

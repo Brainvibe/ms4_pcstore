@@ -1,7 +1,5 @@
 {% load static %}
 
-
-
 <!doctype html>
 <html lang="en">
 
@@ -54,7 +52,7 @@
         <div id="topnav" class="row pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <img class="title-logo" src="{% static 'img/logo_small.png' %}" alt="PC Experience logo">
+                    <img class="nav-logo" src="{{ MEDIA_URL }}logo_small.png" alt="PC Experience logo">
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
@@ -115,22 +113,19 @@
             </div>
         </div>
 
-
-
-    </header>
-    <div class="container-fluid">
-        <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light bg-dark w-100">
-
+        <div class="row mt-auto">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
                     aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                {% include "includes/mobile-top-header.html" %}
-                {% include "includes/main-nav.html" %}
+                {% include 'includes/mobile-top-header.html' %}
+                {% include 'includes/main-nav.html' %}
             </nav>
         </div>
-    </div>
+
+    </header>
+
     {% if messages %}
     <div class="message-container">
         {% for message in messages %}
@@ -167,32 +162,27 @@
     </script>
     {% endblock %}
 
-    <div class="col py-2"></div>
+    <div class="col my-5 py-5"></div>
     <!-- FOOTER -->
     <div class="container-fluid text-center footer-container">
         <footer class="footer-section">
-            <div class="row">
-                <div class="col-12 container-fluid social-icons">
-                    <a target="_blank" aria-label="Facebook" rel="noreferrer" href="https://www.facebook.com">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                    <a target="_blank" aria-label="Twitter" rel="noreferrer" href="https://www.twitter.com">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a target="_blank" aria-label="Instagram" rel="noreferrer" href="https://www.instagram.com">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a target="_blank" aria-label="Youtube" rel="noreferrer" href="https://www.youtube.com">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                    <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                        <img class="title-logo" src="{% static 'img/logo.png' %}" alt="PC Experience logo">
-                    </a>
+            <div class="footer-copyright">
+                <div class="container center">
+                    <a class="social-icons" href="https://www.facebook.com" aria-label="Facebook" rel="noopener" target="_blank"><i
+                            class="fab fa-facebook-square"></i></a>
+                    <a class="social-icons" href="https://www.twitter.com" aria-label="Twitter" rel="noopener" target="_blank"><i
+                            class="fab fa-twitter-square"></i></a>
+                    <a class="social-icons"href="https://www.instagram.com" aria-label="Instagram" rel="noopener" target="_blank"><i
+                            class="fab fa-instagram-square"></i></a>
+                    <div class="footer-text">
+                        <span class="footer-text"> by Nuno Nunes</span>
+                    </div>
                 </div>
             </div>
-          
+    </div>
 
-        </footer>
+
+    </footer>
     </div>
 </body>
 
