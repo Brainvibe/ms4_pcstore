@@ -24,7 +24,7 @@
     <a class="text-white nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
             <div><i class="material-icons">account_circle</i></div>
-            <p class="my-0">My Account</p>
+            <p class="my-0">Account</p>
         </div>
     </a>
     <div class="dropdown-menu border-0" aria-labelledby="user-options">
@@ -32,7 +32,7 @@
             {% if request.user.is_superuser %}
                 <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
             {% endif %}
-            <a href="" class="dropdown-item">My Profile</a>
+            <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
         {% else %}
             <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
@@ -41,14 +41,14 @@
     </div>
 </li>
 <li class="list-inline-item">
-    <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-white{% endif %} nav-link d-block d-lg-none" href="{% url 'view_shopbag' %}">
+    <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-white{% endif %} nav-link d-block d-lg-none" href="{% url 'view_shopbag' %}">
         <div class="text-center">
             <div><i class="material-icons">shopping_cart</i></div>
             <p class="my-0">
                 {% if grand_total %}
-                    ${{ grand_total|floatformat:2 }}
+                    {{ grand_total|floatformat:2 }} €
                 {% else %}
-                    € 0.00
+                    0.00 €
                 {% endif %}
             </p>
         </div>
