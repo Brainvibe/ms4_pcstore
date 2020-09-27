@@ -46,23 +46,9 @@ input[type=number] {
 
 /* Button styling */
 
-.btn-black {
-    background: black;
-    color: white;
-    border-radius: 15px !important;
-}
 
-.btn-outline-black {
-    background: white;
-    color: black !important;
-    border: 1px solid black;
-    border-radius: 15px !important;
-}
 
-.btn-outline-black:hover, .btn-outline-black:active, .btn-outline-black:focus {
-    background: black;
-    color: white!important;
-}
+
 
 .bg-overlay {
     height: 100%;
@@ -111,7 +97,7 @@ a.category-badge>span.badge:hover {
     right: 10px;
 }
 
-.btt-link, .update-link, .remove-item {
+.btt-link {
     cursor: pointer;
     border-color: blue;
     background-color: white;
@@ -150,8 +136,8 @@ a.category-badge>span.badge:hover {
 /* Input box center */
 
 .form-control-sm {
-    padding: 1.25rem 0rem;
-    border-radius: 15px !important;
+    padding: 1.25rem 2rem;
+    
 }
 
 /* form update*/
@@ -233,20 +219,25 @@ a.category-badge>span.badge:hover {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #17a2b8;
+    border: 1px solid #17a2b8;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    border-radius: 0;
+    
     /* standard bootstrap btn transitions */
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
+.text-info{
+    padding-left: 0px;
+}
+
+
 .allauth-form-inner-content button:hover, .allauth-form-inner-content input[type='submit']:hover {
     color: #fff;
-    background-color: #222;
-    border-color: #222;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
 }
 
 .allauth-form-inner-content a {
@@ -255,6 +246,18 @@ a.category-badge>span.badge:hover {
 }
 
 /* Product Form */
+
+.product-link-text{
+    color: #00A0C6!important;
+    text-decoration: none!important;
+
+}
+
+.product-link-text:hover{
+    color: #038daf!important;
+    text-decoration: none;
+    
+}
 
 .btn-file {
     position: relative;
@@ -282,7 +285,10 @@ a.category-badge>span.badge:hover {
     border-radius: 0;
 }
 
-
+i.small {
+    
+    margin-top: -1px;
+    }
 
 .nav-logo {
     width: 10%;
@@ -386,20 +392,34 @@ i:hover {
 }
 
 .prod-img {
-    height: 200px!important;
-    width: 200px!important;
+    height: 400px;
+    width: 400px;
 }
 
 .social-icons-bag {
-    color: #17a2b8!important;
-    background-color: #17a2b8;   
+    color: #17a2b8;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.social-icons-bag:hover{
+    color: #148da0!important;
+    background-color: white!important;
 }
 
 .social-icons-bag-remove {
     color: red!important;
-    background-color: red;
+    cursor:pointer;
+    font-size: 25px;
 }
 
+.social-icons-bag-remove:hover{
+    color:rgb(197, 8, 8)!important;
+    background-color: white!important;
+}
+
+
+/* size of input bar */
 #qty-buttons{
     width: 10.875rem;
   }
@@ -419,6 +439,11 @@ i:hover {
     }
     .payments {
         padding-left: 107px;
+    }
+    .logo-main {
+        width: 30%;
+        padding-top: 80px;
+        
     }
  
 }
@@ -442,20 +467,33 @@ i:hover {
     .logo-main {
         padding-top: 120px;
     }
-    .col-lg-6 {
-        max-width: 40%;
+    .prod-img{
+        height: 260px;
+        width: 260px;
     }
+ /*   .col-lg-6 {
+        max-width: 40%;
+    }*/
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
     footer {
         padding: 70px 0px;
     }
-    .social, .account {
-        padding-left: -1px;
-    }
-    .payments {
+    .payments, .social, .account {
         padding-left: 0px;
+    }
+    .form-control-sm {
+        padding: 1.30rem 1.6rem;
+        
+    }
+    .logo-main {
+        width: 50%;
+        padding-top: 70px;
+    }
+    .prod-img{
+        height: 260px;
+        width: 260px;
     }
 }
 
@@ -481,4 +519,32 @@ i:hover {
     .social-icons {
         font-size: 30px!important;
     }
+    .form-control-sm {
+        padding: 1.30rem 1.6rem;
+        
+    }
+    
 }
+
+/* mobile landscape */
+
+@media (min-width: 481px) and (max-width: 766px) {
+  
+    .cover-container {
+        margin-bottom: 400px;
+    }
+    .logo-main {
+        width: 45%;
+        padding-top: 70px;
+    }
+    .social-icons {
+        font-size: 30px!important;
+    }
+    .payments, .social, .account {
+        padding-left: 0px;
+    }
+    .form-control-sm {
+        padding: 1.30rem 1.5rem;
+        
+    }
+  }
