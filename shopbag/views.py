@@ -32,21 +32,21 @@ def add_to_bag(request, item_id):
 
 
 def adjust_bag(request, item_id):
-   """ Adjust quantity to a product """
+    """ Adjust quantity to a product """
 
-   product = get_object_or_404(Product, pk=item_id)
-   quantity = int(request.POST.get('quantity'))
-   bag = request.session.get('bag', {})
+    product = get_object_or_404(Product, pk=item_id)
+    quantity = int(request.POST.get('quantity'))
+    bag = request.session.get('bag', {})
 
-   if quantity > 0:
+    if quantity > 0:
         bag[item_id] = quantity
         messages.success(
             request, f'Updated {product.name} quantity to {bag[item_id]}')
-   else:
+    else:
         bag.pop(item_id)
         messages.success(request, f'Removed {product.name} from your bag')
-   request.session['bag'] = bag
-   return redirect(reverse('view_shopbag'))
+    request.session['bag'] = bag
+    return redirect(reverse('view_shopbag'))
 
 
 def remove_from_bag(request, item_id):
