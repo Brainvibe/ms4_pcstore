@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="col my-5 py-5"></div>
+{% endblock %}
+
+
+{% block content %}
+<div class="bg-overlay"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <hr>
+            <h2 class="logo-font mb-4">Blog Management</h2>
+            <h5 class="text-muted">Add a Post</h5>
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <form method="POST" action="{% url 'add_post' %}" class="form mb-2" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form | crispy }}
+                <div class="text-right">
+                    <a class="btn btn-outline-info btn-rounded" href="{% url 'news' %}">Cancel</a>
+                    <button class="btn btn-info btn-rounded" type="submit">Add Post</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
