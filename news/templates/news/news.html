@@ -22,21 +22,21 @@
             <div class="card h-100 border-0">
                 {% if post.image %}
                 <a href="{% url 'post_detail' post.id %}">
-                    <img class="card-img-top img-fluid news-post-image" src="{{ post.image.url }}"
+                    <img class="img-fluid news-post-image" src="{{ post.image.url }}"
                         alt="{{ post.name }}">
                 </a>
                 {% else %}
                 <a href="{% url 'post_detail' post.id %}">
-                    <img class="card-img-top img-fluid news-post-image" src="{{ MEDIA_URL }}noimage.png"
+                    <img class="img-fluid news-post-image" src="{{ MEDIA_URL }}noimage.png"
                         alt="{{ post.name }}">
                 </a>
                 {% endif %}
                 <div class="card-body d-flex flex-column pb-0">
                     <div class="mt-auto">
                         <a href="{% url 'post_detail' post.id %}">
-                            <h2 class="mb-0 text=uppercase text-left font-weight-bold">{{ post.title }}</h2>
+                            <h3 class="mb-0 text=uppercase text-left product-link-text">{{ post.title }}</h3>
                         </a>
-                        <p class="mb-0 text-left">{{ post.post_snippet }}</p>
+                        <h4 class="mb-0 text-left">{{ post.post_snippet }}</h4>
                     </div>
                 </div>
                 <div class="card-footer bg-white pt-0 border-0 text-left">
