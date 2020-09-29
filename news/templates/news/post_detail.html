@@ -13,11 +13,11 @@
     <div class="row mt-5 justify-content-center">
         <div class="col-12 col-md-8 text-center py-2">
             {% if post.image %}
-                <img class="img-fluid" src="{{ post.image.url }}" alt="{{ post.title }}">
+                <img class="img-fluid news-post-image" src="{{ post.image.url }}" alt="{{ post.title }}">
             {% else %}
-                <img class=" img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ post.title }}">
+                <img class=" img-fluid news-post-image" src="{{ MEDIA_URL }}noimage.png" alt="{{ post.title }}">
             {% endif %}
-            <p class="my-1 text-left"><strong>Category:</strong> {{post.category.friendly_name}}</p>
+            <p class="my-1 text-center"><strong>Category:</strong> {{post.category.friendly_name}}</p>
             {% if request.user.is_superuser %}
                 <small class="ml-3">
                     <a href="{% url 'edit_post' post.id %}">Edit</a> | 
@@ -25,15 +25,14 @@
                 </small>
             {% endif %}
         </div>
-        <div class="col-12 col-md-8 text-left py-2">
-            <h3 class="mb-3 text=uppercase font-weight-bold text-left">{{ post.title }}</h3>
-            <p class="mb-0 text-left">{{ post.post_snippet }}</p>
-            <p class="mb-0 text-left">{{ post.post_content }}</p>
+        <div class="col-12 col-md-8 text-center py-2">
+            <h3 class="mb-3 text=uppercase font-weight-bold">{{ post.title }}</h3>
+            <p class="mb-0">{{ post.post_snippet }}</p>
+            <p class="mb-0">{{ post.post_content }}</p>
             <p class="small my-0"><strong>Published:</strong> {{post.created}}</p>
             <p class="small my-0"><strong>Updated:</strong> {{post.updated}}</p>
         </div>
-        <div class="col-12 text-center">
-            
+        <div class="col-12 text-center">           
             <a class="btn btn-info" href="{% url 'news' %}">Back</a>
         </div>
     </div>

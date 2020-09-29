@@ -25,14 +25,44 @@ input[type=number] {
     -moz-appearance: textfield;
 }
 
+/* Nav settings */
+
+#topnav {
+    background-color: black;
+}
+
+.nav-font {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-logo {
+    width: 10%;
+    margin: auto;
+    display: block;
+    align-content: center;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+/* home page */
+
 .logo-font {
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
     font-size: 25px;
 }
 
-.logo-font-prod {
-    font-family: 'Roboto Condensed', sans-serif;
+.logo-main {
+    width: 40%;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.text-black {
     color: black;
 }
 
@@ -40,13 +70,18 @@ input[type=number] {
     width: fit-content;
 }
 
-.bg-dark {
-    background-color: black !important;
+.logo-font-prod {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
 }
 
-/* Button styling */
+/* overlap button issue in homepage*/
 
+.home-button {
+    z-index: 2;
+}
 
+/* white background overlay*/
 
 .bg-overlay {
     height: 100%;
@@ -58,57 +93,18 @@ input[type=number] {
     z-index: -1;
 }
 
-.bg-news-overlay{
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: #5b5858;
-    z-index: -1;
+/* news image size */
+
+.news-post-image {
+    height: 450px;
+    width: 400px;
 }
 
-#topnav {
-    background-color: black;
-}
-
-.home-button {
-    z-index: 2;
-}
-
-.text-white {
-    color: white !important;
-}
-
-.nav-font {
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-.text-black {
-    color: black;
-}
-
-.border-black {
-    border: 1px solid black !important;
-}
+/* category text */
 
 a.category-badge>span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
-}
-
-.btt-button {
-    height: 42px;
-    width: 42px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-}
-
-.btt-link {
-    cursor: pointer;
-    border-color: blue;
-    background-color: white;
 }
 
 /* Toast settings */
@@ -128,24 +124,10 @@ a.category-badge>span.badge:hover {
     height: 5px;
 }
 
-/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
-
-.arrow-up {
-    width: 0;
-    height: 0;
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent;
-    border-bottom: 10px solid black;
-    position: absolute;
-    top: -10px;
-    right: 36px;
-}
-
 /* Input box center */
 
 .form-control-sm {
     padding: 1.25rem 2rem;
-    
 }
 
 /* form update*/
@@ -154,39 +136,7 @@ a.category-badge>span.badge:hover {
     padding-right: 90px;
 }
 
-/* Convenience classes - colors copied from Bootstrap */
-
-.arrow-primary {
-    border-bottom-color: #007bff !important;
-}
-
-.arrow-secondary {
-    border-bottom-color: #6c757d !important;
-}
-
-.arrow-success {
-    border-bottom-color: #28a745 !important;
-}
-
-.arrow-danger {
-    border-bottom-color: #dc3545 !important;
-}
-
-.arrow-warning {
-    border-bottom-color: #ffc107 !important;
-}
-
-.arrow-info {
-    border-bottom-color: #17a2b8 !important;
-}
-
-.arrow-light {
-    border-bottom-color: #f8f9fa !important;
-}
-
-.arrow-dark {
-    border-bottom-color: #343a40 !important;
-}
+/* bag notification */
 
 .bag-notification-wrapper {
     height: 100px;
@@ -232,15 +182,13 @@ a.category-badge>span.badge:hover {
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    
     /* standard bootstrap btn transitions */
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-.text-info{
+.text-info {
     padding-left: 0px;
 }
-
 
 .allauth-form-inner-content button:hover, .allauth-form-inner-content input[type='submit']:hover {
     color: #fff;
@@ -255,16 +203,14 @@ a.category-badge>span.badge:hover {
 
 /* Product Form */
 
-.product-link-text{
+.product-link-text {
     color: #00A0C6!important;
     text-decoration: none!important;
-
 }
 
-.product-link-text:hover{
+.product-link-text:hover {
     color: #038daf!important;
     text-decoration: none;
-    
 }
 
 .btn-file {
@@ -294,19 +240,7 @@ a.category-badge>span.badge:hover {
 }
 
 i.small {
-    
     margin-top: -1px;
-    }
-
-.nav-logo {
-    width: 10%;
-    margin: auto;
-    display: block;
-    align-content: center;
-}
-
-.logo-main {
-    width: 40%;
 }
 
 /* footer styling */
@@ -410,32 +344,31 @@ i:hover {
     cursor: pointer;
 }
 
-.social-icons-bag:hover{
+.social-icons-bag:hover {
     color: #148da0!important;
     background-color: white!important;
 }
 
 .social-icons-bag-remove {
     color: red!important;
-    cursor:pointer;
+    cursor: pointer;
     font-size: 25px;
 }
 
-.social-icons-bag-remove:hover{
-    color:rgb(197, 8, 8)!important;
+.social-icons-bag-remove:hover {
+    color: rgb(197, 8, 8)!important;
     background-color: white!important;
 }
 
-
 /* size of input bar */
-#qty-buttons{
+
+#qty-buttons {
     width: 10.875rem;
-  }
+}
 
-
- .nav-link:hover{
+.nav-link:hover {
     color: #00A0C6!important;
-  }
+}
 
 /* -------------------------------- Media Queries */
 
@@ -451,12 +384,14 @@ i:hover {
     .logo-main {
         width: 30%;
         padding-top: 80px;
-        
     }
- 
+    .news-post-image {
+        height: 350px;
+        width: 250px;
+    }
 }
 
-/* fixed top navbar only on medium and up */
+/*Desktop*/
 
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -475,14 +410,17 @@ i:hover {
     .logo-main {
         padding-top: 120px;
     }
-    .prod-img{
+    .prod-img {
         height: 260px;
         width: 260px;
     }
- /*   .col-lg-6 {
-        max-width: 40%;
-    }*/
+    .news-post-image {
+        height: 350px;
+        width: 400px;
+    }
 }
+
+/* tablets */
 
 @media (min-width: 768px) and (max-width: 1024px) {
     footer {
@@ -493,19 +431,18 @@ i:hover {
     }
     .form-control-sm {
         padding: 1.30rem 1.6rem;
-        
     }
     .logo-main {
         width: 50%;
         padding-top: 70px;
     }
-    .prod-img{
+    .prod-img {
         height: 260px;
         width: 260px;
     }
 }
 
-/* pad the top a bit when navbar is collapsed on mobile */
+/*mobile*/
 
 @media (max-width: 767px) {
     body {
@@ -529,21 +466,22 @@ i:hover {
     }
     .form-control-sm {
         padding: 1.30rem 1.6rem;
-        
     }
-    
 }
 
 /* mobile landscape */
 
 @media (min-width: 481px) and (max-width: 766px) {
-  
     .cover-container {
         margin-bottom: 400px;
     }
     .logo-main {
         width: 45%;
         padding-top: 70px;
+    }
+    .news-post-image {
+        height: 350px;
+        width: 400px;
     }
     .social-icons {
         font-size: 30px!important;
@@ -553,6 +491,5 @@ i:hover {
     }
     .form-control-sm {
         padding: 1.30rem 1.5rem;
-        
     }
-  }
+}

@@ -2,23 +2,21 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
+<div class="col my-5 py-5"></div>
 {% endblock %}
 
+
 {% block content %}
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <hr>
-                <h2 class="logo-font mb-4">Blog Management</h2>
-                <h5 class="text-muted">Edit a Post</h5>
-                <hr>
-            </div>
+<div class="bg-overlay"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <hr>
+            <h2 class="logo-font-prod mb-4">News Management</h2>
+            <h5 class="text-muted">Edit News</h5>
+            <hr>
         </div>
+    </div>
 
         <div class="row">
             <div class="col-12 col-md-6">
@@ -26,8 +24,8 @@
                     {% csrf_token %}
                     {{ form | crispy }}
                     <div class="text-right">
-                        <a class="btn btn-outline-black rounded-0" href="{% url 'news' %}">Cancel</a>
-                        <button class="btn btn-black rounded-0" type="submit">Edit Post</button>
+                        <a class="btn btn-outline-info" href="{% url 'news' %}">Cancel</a>
+                        <button class="btn btn-info" type="submit">Edit Post</button>
                     </div>
                 </form>
             </div>            
