@@ -29,18 +29,18 @@ The user is able to search for products on any category, purchase them, access t
 
 ### User Stories
 
-* As a Owner, I want to be able to add/edit/remove products from my store.
-* As a Owner, I want to be able to add news regarding my store, in order to help promote my products.
-* As a Owner/Enthusiast/General, I want to be able to see details about each product.
-* As a Owner/Enthusiast/General, I want to be able to sign in and logout easily
-* As a Owner/Enthusiast/General, I want to be able to search for any specific product, to find quickly what I'm looking for.
-* As a Owner/Enthusiast/General, I want to easy navigate so I can find the information I need quickly.
-* As a Owner/Enthusiast/General, I want to view components in specific categories so it's easier to find what I want.
-* As a Enthusiast/General, I want to be able to create an account, so I can see my order history and update my delivery information in case I order more items.
-* As a Enthusiast/General, I want to be able to recover my password in case I forget.
-* As a Enthusiast/General, I want to receive a confirmation email, so I know the registration was completed.
-* As a Enthusiast/General, I want to view the products I've added to my cart
-* As a Enthusiast/General, I want to be able to remove/update items from my cart, In case I add something by mistake or add the incorrect quantity.
+* As an Owner, I want to be able to add/edit/remove products from my store.
+* As an Owner, I want to be able to add news regarding my store, in order to help promote my products.
+* As an Owner/Enthusiast/General, I want to be able to see details about each product.
+* As an Owner/Enthusiast/General, I want to be able to sign in and logout easily
+* As an Owner/Enthusiast/General, I want to be able to search for any specific product, to find quickly what I'm looking for.
+* As an Owner/Enthusiast/General, I want to easy navigate so I can find the information I need quickly.
+* As an Owner/Enthusiast/General, I want to view components in specific categories so it's easier to find what I want.
+* As an Enthusiast/General, I want to be able to create an account, so I can see my order history and update my delivery information in case I order more items.
+* As an Enthusiast/General, I want to be able to recover my password in case I forget.
+* As an Enthusiast/General, I want to receive a confirmation email, so I know the registration was completed.
+* As an Enthusiast/General, I want to view the products I've added to my cart
+* As an Enthusiast/General, I want to be able to remove/update items from my cart, In case I add something by mistake or add the incorrect quantity.
 
 ## Features
 
@@ -176,9 +176,9 @@ Wireframes done with Balsamiq, available here:
 
 ### Add News
 
-* Tried to add posts without filling any details, to test if it was letting creating "empty" posts in the blog.
+* Tried to add posts without filling any details, to test if it was letting the user create "empty" posts in the blog.
 * Tried to add a post without filling the required fields to see if the validation was working correctly.
-* Tried to add a post with and without image to see if the product image selected was correct in case of no images to display the noimage.png
+* Tried to add a post with and without image to see if the image selected was correct in case of no images to display the noimage.png
 * Tested Cancel button to see if it was redirecting correctly to News.
 * Tested Add Post after all validations above.
 * Notification displayed the correct information when a post was added.
@@ -188,7 +188,7 @@ Wireframes done with Balsamiq, available here:
 * Made several purchases with different products and see if they were logged correctly in the order history.
 * Logged out with different users and logged back in to see if they were being displayed correctly
 * Updated every field individually to test if it was updating correctly the delivery information.
-* Update information button was posting information correcty while updating each field.
+* Tested that the “update information” button was posting information correctly while updating each field
 
 ### Edit Products
 
@@ -197,9 +197,7 @@ Wireframes done with Balsamiq, available here:
 
 ### Delete Products
 
-* Delete task was tested several times with different users logged in, to see if the correct games were being deleted for a single user, and not for all users.
-* Tested the delete task on results and results_genre to check if everything was being redirected correctly.
-* Several combinations of modal delete confirmation, were tested to make sure the game wasn't being deleted by choosing the incorrect option.
+* Tested the “delete products” button on all pages to check if it was performing correctly
 
 ### Edit Posts
 
@@ -213,7 +211,7 @@ Wireframes done with Balsamiq, available here:
 ### Delete posts
 
 * Create several posts to see if was working correctly and deleting the correct post ID.
-* Logged in and logged out to see if they were only being removed from session or permanentely.
+* Logged in and logged out to make sure they were being removed permanently.
 * Delete button worked for every test above.
 
 ### Shopping bag
@@ -262,7 +260,7 @@ Wireframes done with Balsamiq, available here:
 * Used command:
 ```python3 -m flake8``` to fix any major issues with python code
 * Due to lack of time wasn't able to fix all issues, but fixed the most important ones. The ones that I wasn't able to tackle was ```E501 line too long``` and ```F401 'django.test.TestCase' imported but unused``` as there's a lot of files.
-* Definitely learned from this one, started to use only this command in the end of the project, which cause some setbacks that were easily avoided, if I started using it from the beginning.
+* Definitely learned from this one, as I only started to use this command at the end of the project, which caused some setbacks that could have been easily avoided if I started using it from the very beginning.
 
 ### Tested Devices
 
@@ -365,9 +363,9 @@ The project is now deployed.
 
 ### Acknowledgements
 
-Received inspiration for this project and based the code, from Code Institute's Full Stack Frameworks
+Received inspiration for this project and based the code, from Code Institute's Full Stack Frameworks module.
 
-Want to thank all Code Institute staff, students and Mentors that helped me along the way in this long journey, it was definitely a great adventure.
+Want to thank all Code Institute staff, students and Mentors that helped me along the way in this long journey, it was definitely a great challenge.
 
 ## Disclaimer
 
