@@ -91,9 +91,9 @@ I would like to implement more features in this app like:
 
 Wireframes done with Balsamiq, available here:
 
-* [Desktop](https://github.com/Brainvibe/1UpLoot/blob/master/data/wireframes/Desktop.png)
-* [Mobile](https://github.com/Brainvibe/1UpLoot/blob/master/data/wireframes/Mobile.png)
-* [Tablet](https://github.com/Brainvibe/1UpLoot/blob/master/data/wireframes/Tablet.png)
+* [Desktop](https://github.com/Brainvibe/ms4_pcstore/blob/master/wireframes/Desktop.png)
+* [Mobile](https://github.com/Brainvibe/ms4_pcstore/blob/master/wireframes/Mobile.png)
+* [Tablet](https://github.com/Brainvibe/ms4_pcstore/blob/master/wireframes/Tablet.png)
 
 ## Technologies Used
 
@@ -136,35 +136,6 @@ Wireframes done with Balsamiq, available here:
   * Cloud-based web hosting service for dynamic websites.
 
 ## Testing
-
-### W3C Validation Services
-
-* ```Attribute with not allowed on element img at this point```
-  * Had a typo in img: ```with``` instead of ```width```, changed and fixed.
-* ```An img element must have an alt attribute, except under certain conditions.```
-  * Fixed missing ```alt``` attribute to img.
-* ```No space between attributes.```
-  * Fixed the space between attributes
-
-### W3C Link Checker
-
-* No errors, all links working properly. Only two links were not able to be tested by the tool. Here's the console log:
-
-  ```info Line: 322 https://www.facebook.com/
-       Status: (N/A) Forbidden by robots.txt
-       The link was not checked due to robots exclusion rules. Check the link manually.
-       info Line: 319 https://www.twitter.com/
-       Status: (N/A) Forbidden by robots.txt
-       The link was not checked due to robots exclusion rules. Check the link manually.
-  ```
-
-  * Both links were tested manually and working.
-  
-### CSS Validation service
-
-* All errors were from vendor and third party errors and css issues.
-
-## Non-automated testing
 
 ### Links
 
