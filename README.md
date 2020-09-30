@@ -257,6 +257,13 @@ Wireframes done with Balsamiq, available here:
 
 * All notifications were checked while making all tests above showing the correct information.
 
+### Code flake8
+
+* Used command:
+```python3 -m flake8``` to fix any major issues with python code
+* Due to lack of time wasn't able to fix all issues, but fixed the most important ones. The ones that I wasn't able to tackle was ```E501 line too long``` and ```F401 'django.test.TestCase' imported but unused``` as there's a lot of files.
+* Definitely learned from this one, started to use only this command in the end of the project, which cause some setbacks that were easily avoided, if I started using it from the beginning.
+
 ### Tested Devices
 
 * Apart from using the dev tools to see if the site was responsive across different resolutions, I've tested all features on the following devices:
@@ -358,9 +365,9 @@ The project is now deployed.
 
 ### Acknowledgements
 
-I received inspiration for this project, and based the code, from Code Institute's Full Stack Frameworks
+Received inspiration for this project and based the code, from Code Institute's Full Stack Frameworks
 
-As always, I want to thank my mentor [Victor Miclovich](https://github.com/miclovich) for his great knowledge and experience with valuable feedback in our mentoring sessions.
+Want to thank all Code Institute staff, students and Mentors that helped me along the way in this long journey, it was definitely a great adventure.
 
 ## Disclaimer
 
