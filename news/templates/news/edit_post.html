@@ -17,18 +17,23 @@
             <hr>
         </div>
     </div>
-
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <form method="POST" action="{% url 'edit_post' post.id %}" class="form mb-2" enctype="multipart/form-data">
-                    {% csrf_token %}
-                    {{ form | crispy }}
-                    <div class="text-right">
-                        <a class="btn btn-outline-info" href="{% url 'news' %}">Cancel</a>
-                        <button class="btn btn-info" type="submit">Edit Post</button>
-                    </div>
-                </form>
-            </div>            
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <form method="POST" action="{% url 'edit_post' post.id %}" class="form mb-2" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form | crispy }}
+                <div class="text-right">
+                    <a class="btn btn-outline-info" href="{% url 'news' %}">Cancel</a>
+                    <button class="btn btn-info" type="submit">Edit Post</button>
+                </div>
+            </form>
         </div>
     </div>
+</div>
 {% endblock %}
+<script type="text/javascript">
+    $('#new-image').change(function () {
+        var file = $('#new-image')[0].files[0];
+        $('#filename').text(`Image will be set to: ${file.name}`);
+    });
+</script>

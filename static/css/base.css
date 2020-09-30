@@ -31,6 +31,10 @@ input[type=number] {
     background-color: black;
 }
 
+.nav-link:hover {
+    color: #00A0C6!important;
+}
+
 .nav-font {
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -60,6 +64,11 @@ input[type=number] {
 
 .text-white {
     color: white !important;
+}
+
+.text-white-nav {
+    color: white !important;
+    padding: 0;
 }
 
 .text-black {
@@ -128,6 +137,12 @@ a.category-badge>span.badge:hover {
 
 .form-control-sm {
     padding: 1.25rem 2rem;
+}
+
+/* size of input bar */
+
+#qty-buttons {
+    width: 10.875rem;
 }
 
 /* form update*/
@@ -360,21 +375,26 @@ i:hover {
     background-color: white!important;
 }
 
-/* size of input bar */
-
-#qty-buttons {
-    width: 10.875rem;
-}
-
-.nav-link:hover {
-    color: #00A0C6!important;
-}
-
 /* -------------------------------- Media Queries */
+
+/* Larger Screens */
+
+@media (min-width: 1440px) {
+    .text-white {
+        padding-left: 180px;
+    }
+    .logo-main {
+        width: 30%;
+        padding-top: 80px;
+    }
+    .text-white-nav {
+        padding: 10px;
+    }
+}
 
 /* Desktop */
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1440px) {
     .container {
         max-width: 80%;
     }
@@ -389,12 +409,13 @@ i:hover {
         height: 350px;
         width: 250px;
     }
-    .text-white{
+    .text-white {
         padding-left: 80px;
     }
+    .text-white-nav {
+        padding: 10px;
+    }
 }
-
-
 
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -430,7 +451,7 @@ i:hover {
         padding: 70px 0px;
     }
     .payments, .social, .account {
-        padding-left: 0px;
+        padding-left: 33px;
     }
     .form-control-sm {
         padding: 1.30rem 1.6rem;

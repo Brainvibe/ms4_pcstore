@@ -1,6 +1,7 @@
 {% extends "account/base.html" %}
 {% block page_header %}
 <div class="col my-5 py-5"></div>
+<div class="col my-5 py-5"></div>
 {% endblock %}
 
 {% load i18n %}
@@ -21,6 +22,6 @@
   <a class="btn btn-outline-info btn-rounded" href="{% url 'home' %}">Cancel</a>
   <button class="btn btn-info btn-rounded" type="submit">{% trans 'Sign Out' %}</button>
 </form>
-
+<div class="col my-5 py-5"></div>
 
 {% endblock %}
